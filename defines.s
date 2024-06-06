@@ -25,6 +25,9 @@ AIM65 := 1
 .elseif .def(sym1)
 SYM1 := 1
 .include "defines_sym1.s"
+.elseif .def(yumpter)
+YUMPTER := 1
+.include "defines_yumpter.s"
 .endif
 
 .ifdef CONFIG_2C
@@ -88,6 +91,3 @@ LF=10
 CRLF_1 := CR
 CRLF_2 := LF
 .endif
-
-
-
